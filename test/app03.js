@@ -1,5 +1,4 @@
-
-var createError = require('http-errorshttp-errors');
+var createError = require('http-');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -40,8 +39,6 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
-
-
 
 render the error page
 render the error page
